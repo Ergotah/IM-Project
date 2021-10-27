@@ -340,6 +340,7 @@
 "Assets/Scripts/OpenDoor.cs"
 "Assets/Scripts/PickKey.cs"
 "Assets/Scripts/PlayerMovement.cs"
+"Assets/Scripts/Respawn.cs"
 -langversion:8.0
 
 /deterministic
