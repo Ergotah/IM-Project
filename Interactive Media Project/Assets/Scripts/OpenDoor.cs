@@ -19,7 +19,7 @@ public class OpenDoor : MonoBehaviour
     }
 
     // Update is called once per frame
-    void OnTriggerStay()
+    void OnTriggerStay()        //when you get to the box collider of the door you can press E and the hinge animation will play
     {
         if (Input.GetKey(KeyCode.E))
         {
