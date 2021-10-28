@@ -3,8 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
-/* This script was made following the youtube tutorial ULTIMATE Respawning Guide in Unity [2D & 3D Respawn] by youtuber SpeedTutor
-...*/
+/* This is a simple respawning script that transforms the player back to an empty game object called respawnpoint.*/
 
 
 public class Respawn : MonoBehaviour
