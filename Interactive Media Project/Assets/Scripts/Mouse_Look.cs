@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 /* This code was written following a youtube tutorial by channel Brackeys
-  The video is called FIRST PERSON MOVEMENT in unity -FPS Controller, posted on Oct 27, 2019
+ * The video is called FIRST PERSON MOVEMENT in unity -FPS Controller, posted on Oct 27, 2019
  link: https://www.youtube.com/watch?v=_QajrabyTJc */
 
 public class Mouse_Look : MonoBehaviour
