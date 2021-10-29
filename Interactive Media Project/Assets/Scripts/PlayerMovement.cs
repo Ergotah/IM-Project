@@ -9,7 +9,7 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     public CharacterController controller;  //link to the character controller component
-
+    
     public float speed = 12f;   //speed for the walking movement
     public float gravity = -9.81f;
     public float jumpHeight = 3f;
@@ -20,6 +20,8 @@ public class PlayerMovement : MonoBehaviour
 
     Vector3 velocity;
     bool isGrounded;
+    bool isWalking;
+
 
     // Update is called once per frame
     void Update()
@@ -45,5 +47,14 @@ public class PlayerMovement : MonoBehaviour
 
         velocity.y += gravity * Time.deltaTime;
         controller.Move(velocity * Time.deltaTime); //again multiple by time according to dY = 0.5*g*t^2
+        
+        if (velocity.x != 0 || velocity.z != 0 && isGrounded)
+        {
+            isWalking = true;
+        }
+        else
+        {
+            isWalking = false;
+        }
     }
 }
