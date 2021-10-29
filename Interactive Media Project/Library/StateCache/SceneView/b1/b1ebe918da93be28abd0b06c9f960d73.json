@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 ﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":false,"audioPlay":false,"sceneViewState":{"m_AlwaysRefresh":false,"showFog":true,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true,"showVisualEffectGraphs":true,"m_FxEnabled":true},"in2DMode":false,"pivot":{"x":0.7580873966217041,"y":0.3732035756111145,"z":2.5408551692962648},"rotation":{"x":0.19219641387462617,"y":0.15530003607273103,"z":-0.030825098976492883,"w":0.9685325622558594},"size":4.1361403465271,"orthographic":false}
 =======
@@ -7,3 +8,6 @@
 =======
 ﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"m_AlwaysRefresh":false,"showFog":true,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true,"showVisualEffectGraphs":true,"m_FxEnabled":true},"in2DMode":false,"pivot":{"x":-75.3935317993164,"y":-6.007347583770752,"z":25.890737533569337},"rotation":{"x":-0.0453655906021595,"y":0.5748621225357056,"z":-0.031923048198223117,"w":-0.8164272904396057},"size":41.17552185058594,"orthographic":false}
 >>>>>>> parent of e95fd435 (Merge branch 'main' of https://github.com/Ergotah/IM-Project)
+=======
+﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":false,"audioPlay":false,"sceneViewState":{"m_AlwaysRefresh":false,"showFog":true,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true,"showVisualEffectGraphs":true,"m_FxEnabled":true},"in2DMode":false,"pivot":{"x":-41.909122467041019,"y":-4.983909606933594,"z":49.69731903076172},"rotation":{"x":0.14545206725597382,"y":-0.5606068968772888,"z":0.10079772770404816,"w":0.8089755773544312},"size":41.259071350097659,"orthographic":false}
+>>>>>>> parent of 82e6a332 (Lights)
