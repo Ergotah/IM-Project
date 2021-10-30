@@ -11,11 +11,15 @@ https://www.youtube.com/watch?v=hWbdaihafjo
 public class OpenDoor : MonoBehaviour
 {
     public Animation hingehere;
+    
+    [FMODUnity.EventRef]
+    public string selectsound;
+    FMOD.Studio.EventInstance soundevent;
 
     // Start is called before the first frame update
     void Start()
     {
-
+        soundevent = FMODUnity.RuntimeManager.CreateInstance(selectsound);
     }
 
     // Update is called once per frame
@@ -24,6 +28,7 @@ public class OpenDoor : MonoBehaviour
         if (Input.GetKey(KeyCode.E))
         {
             hingehere.Play();
+            soundevent.start();
         }
     }
 }

@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
 /* 
  This script is made by following a youtube tutorial by youtuber Killer Whale. 
 It's from a video called Unity C#Tutorial: Opening A Door With A Key, published on may 3, 2020
@@ -21,10 +22,16 @@ public class PickKey : MonoBehaviour
     public GameObject target;
     public Camera cam;
 
+    [FMODUnity.EventRef]
+    public string selectsound;
+    FMOD.Studio.EventInstance soundevent;
+
     // Start is called before the first frame update
     void Start()
     {
         UiObject.SetActive(false);
+        
+        soundevent = FMODUnity.RuntimeManager.CreateInstance(selectsound);
     }
 
     private bool IsVisible(Camera c, GameObject target)     //check whether the view of the camers is focused on the key
@@ -65,7 +72,9 @@ public class PickKey : MonoBehaviour
             doorcolliderhere.GetComponent<BoxCollider>().enabled = true;    //box collider of door is enabled
             keygone.SetActive(false);   //key dissappears
             UiObject.SetActive(false);  //objective text dissapears
-            Destroy (GateTrigger);        //make sure the objective text to find the key won't be shown again by destrying the trigger
+            Destroy (GateTrigger); //make sure the objective text to find the key won't be shown again by destrying the trigger
+            //FMODUnity.RunTimeManager.CreateInstance (event:/Key_PickUp);
+            soundevent.start();
         }
     }
 
