@@ -1,5 +1,27 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8827743865999921334
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footsteps/Floor type
+  m_EditorClassIdentifier: 
+  Name: Floor type
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 1
+  IsGlobal: 0
+  Exists: 1
 --- !u!114 &-8530299446790811454
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20,10 +42,54 @@ MonoBehaviour:
   Is3D: 0
   IsOneShot: 0
   Parameters:
-  - {fileID: -1508945339950123187}
+  - {fileID: -1890248463854979572}
   MinDistance: 0
   MaxDistance: 0
-  Length: 203351
+  Length: 188421
+--- !u!114 &-7668258748501733367
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footsteps/Floor type
+  m_EditorClassIdentifier: 
+  Name: Floor type
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 1
+  IsGlobal: 0
+  Exists: 0
+--- !u!114 &-6991607113046868322
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Rumble/Room
+  m_EditorClassIdentifier: 
+  Name: Room
+  Min: 0
+  Max: 3
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 1
+  IsGlobal: 0
+  Exists: 0
 --- !u!114 &-5042689585028397893
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -61,7 +127,7 @@ MonoBehaviour:
   Path: ../../../FMOD Studio/IM_Project_Sound_New/Build/Desktop/Fence_Open.bank
   Name: Fence_Open
   StudioPath: bank:/Foley/Fence_Open
-  lastModified: 637712347292714869
+  lastModified: 637712802900025722
   FileSizes: []
   Exists: 1
 --- !u!114 &-4432540485005660457
@@ -79,7 +145,7 @@ MonoBehaviour:
   Path: ../../../FMOD Studio/IM_Project_Sound_New/Build/Desktop/Music.bank
   Name: Music
   StudioPath: bank:/Music
-  lastModified: 637712347292106250
+  lastModified: 637712802899796363
   FileSizes: []
   Exists: 1
 --- !u!114 &-4049570587354894530
@@ -102,7 +168,7 @@ MonoBehaviour:
   Is3D: 0
   IsOneShot: 1
   Parameters:
-  - {fileID: 8650549804344169792}
+  - {fileID: 6413267927976927739}
   MinDistance: 0
   MaxDistance: 0
   Length: 351
@@ -121,7 +187,7 @@ MonoBehaviour:
   Path: ../../../FMOD Studio/IM_Project_Sound_New/Build/Desktop/Ambiance.bank
   Name: Ambiance
   StudioPath: bank:/Ambiance
-  lastModified: 637712347291485625
+  lastModified: 637712802899108176
   FileSizes: []
   Exists: 1
 --- !u!114 &-2663582988795944389
@@ -147,6 +213,50 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 159632
+--- !u!114 &-2609793758515679378
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footsteps/Floor type
+  m_EditorClassIdentifier: 
+  Name: Floor type
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 1
+  IsGlobal: 0
+  Exists: 1
+--- !u!114 &-2601924425326864107
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footsteps/Floor type
+  m_EditorClassIdentifier: 
+  Name: Floor type
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 1
+  IsGlobal: 0
+  Exists: 0
 --- !u!114 &-2351162619096300484
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -162,8 +272,30 @@ MonoBehaviour:
   Path: ../../../FMOD Studio/IM_Project_Sound_New/Build/Desktop/Key_PickUp.bank
   Name: Key_PickUp
   StudioPath: bank:/Foley/Key_PickUp
-  lastModified: 637712347293143184
+  lastModified: 637712802900215572
   FileSizes: []
+  Exists: 1
+--- !u!114 &-1890248463854979572
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Rumble/Room
+  m_EditorClassIdentifier: 
+  Name: Room
+  Min: 0
+  Max: 3
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 1
+  IsGlobal: 0
   Exists: 1
 --- !u!114 &-1563478250543420223
 MonoBehaviour:
@@ -180,7 +312,7 @@ MonoBehaviour:
   Path: ../../../FMOD Studio/IM_Project_Sound_New/Build/Desktop/Footsteps.bank
   Name: Footsteps
   StudioPath: bank:/Footsteps
-  lastModified: 637712347291777124
+  lastModified: 637712802899537039
   FileSizes: []
   Exists: 1
 --- !u!114 &-1508945339950123187
@@ -227,6 +359,28 @@ MonoBehaviour:
   Type: 1
   IsGlobal: 0
   Exists: 1
+--- !u!114 &-324731867859636360
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Rumble/Room
+  m_EditorClassIdentifier: 
+  Name: Room
+  Min: 0
+  Max: 3
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 1
+  IsGlobal: 0
+  Exists: 0
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -259,8 +413,30 @@ MonoBehaviour:
   - {fileID: 9032156408576138625}
   StringsBanks:
   - {fileID: 2551002105788623844}
-  stringsBankWriteTime: 637712347291817018
+  stringsBankWriteTime: 637712802899576946
   cacheVersion: 8
+--- !u!114 &389112894175469596
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Rumble/Room
+  m_EditorClassIdentifier: 
+  Name: Room
+  Min: 0
+  Max: 3
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 1
+  IsGlobal: 0
+  Exists: 0
 --- !u!114 &1681547007541473354
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -279,10 +455,10 @@ MonoBehaviour:
   - {fileID: -3250121100173614499}
   IsStream: 1
   Is3D: 1
-  IsOneShot: 1
+  IsOneShot: 0
   Parameters: []
   MinDistance: 1
-  MaxDistance: 20
+  MaxDistance: 10000
   Length: 82058
 --- !u!114 &2050438434385336087
 MonoBehaviour:
@@ -321,7 +497,7 @@ MonoBehaviour:
   Path: ../../../FMOD Studio/IM_Project_Sound_New/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637712347291817018
+  lastModified: 637712802899576946
   FileSizes:
   - Name: 
     Value: 1306
@@ -416,6 +592,28 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 0
+--- !u!114 &5125892302438704823
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footsteps/Floor type
+  m_EditorClassIdentifier: 
+  Name: Floor type
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 1
+  IsGlobal: 0
+  Exists: 0
 --- !u!114 &5684123398212500807
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -438,6 +636,72 @@ MonoBehaviour:
   Type: 1
   IsGlobal: 0
   Exists: 0
+--- !u!114 &5952904015159702161
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Rumble/Room
+  m_EditorClassIdentifier: 
+  Name: Room
+  Min: 0
+  Max: 3
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 1
+  IsGlobal: 0
+  Exists: 1
+--- !u!114 &6298559950181403464
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Rumble/Room
+  m_EditorClassIdentifier: 
+  Name: Room
+  Min: 0
+  Max: 3
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 1
+  IsGlobal: 0
+  Exists: 1
+--- !u!114 &6413267927976927739
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footsteps/Floor type
+  m_EditorClassIdentifier: 
+  Name: Floor type
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 1
+  IsGlobal: 0
+  Exists: 1
 --- !u!114 &8650549804344169792
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -475,6 +739,6 @@ MonoBehaviour:
   Path: ../../../FMOD Studio/IM_Project_Sound_New/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637712347291797070
+  lastModified: 637712802899557001
   FileSizes: []
   Exists: 1

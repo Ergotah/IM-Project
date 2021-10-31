@@ -22,6 +22,10 @@ public class OpenDoor : MonoBehaviour
         soundevent = FMODUnity.RuntimeManager.CreateInstance(selectsound);
     }
 
+    void Update()
+    {
+        FMODUnity.RuntimeManager.AttachInstanceToGameObject(soundevent, GetComponent<Transform>(), GetComponent<Rigidbody>());
+    }
     // Update is called once per frame
     void OnTriggerStay()        //when you get to the box collider of the door you can press E and the hinge animation will play
     {
