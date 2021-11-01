@@ -10,6 +10,7 @@ public class PlayerMovement : MonoBehaviour
 {
     public CharacterController controller;  //link to the character controller component
 
+    public Animator anim;
     public float speed = 12f;   //speed for the walking movement
     public float gravity = -9.81f;
     public float jumpHeight = 3f;
@@ -24,6 +25,9 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        anim.SetFloat("vertical", Input.GetAxis("Vertical"));
+        anim.SetFloat("horizontal", Input.GetAxis("Horizontal"));
+
         isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask); //a physics check with parameters grounddist as radius and groundmask as layermask 
        
         if(isGrounded && velocity.y < 0)

@@ -6,21 +6,21 @@ using UnityEngine;
 
 public class MusicRoomTrigger : MonoBehaviour
 {
-    [FMODUnity.EventRef] //reference to FMOD plugin
-    public string Rumble = “event:/Rumble”; //create string with FMOD event
-    public FMOD.Studio.EventInstance AUDIO EVENT; //create instance of the event
-    public FMOD.Studio.ParameterInstance PARAMETER EVENT; //create instance of the parameter
+    //[FMODUnity.EventRef] //reference to FMOD plugin
+    //public string Rumble = “event:/Rumble”; //create string with FMOD event
+    //public FMOD.Studio.EventInstance AUDIO EVENT; //create instance of the event
+    //public FMOD.Studio.ParameterInstance PARAMETER EVENT; //create instance of the parameter
     // Start is called before the first frame update
     void Start()
     {
-        instance = FMODUnity.RuntimeManager.CreateInstance(Rumble);
-        instance.getParameter(“Room”, out PARAMETER EVENT);
-        instance.start();
+        //instance = FMODUnity.RuntimeManager.CreateInstance(Rumble);
+        //instance.getParameter(“Room”, out PARAMETER EVENT);
+        //instance.start();
     }
 
  
     void OnTriggerEnter(Collider other)
     {
-        instance.setValue(1.0);
+        //instance.setValue(1.0);
     }
 }
